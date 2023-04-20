@@ -18,3 +18,21 @@ display: flex;
 gap: 10px;
 }
 ```
+| |
+```
+.container {
+display: inline-flex;
+gap: 10px;
+flex-direction: column;
+}
+```
+- flex-basic: <- can only target the children
+```
+.container > * {
+flex-basic: 100px
+}
+```
+- Ordering: every child has order 0. Who has bigger number will be on the left side-> 0 0 10 ....
+```
+flex-wrap
+-max-width, min-width
