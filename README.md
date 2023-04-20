@@ -10,3 +10,11 @@ z-index: (put on top or back)
 ```
   <link rel="stylesheet" href="./style.css">
 ```
+- Web layout inspired by newspapers & magazine articles
+- FLexbox is good for display "Overall page structure" (put all div in a container class)
+```
+.container {
+display: flex;
+gap: 10px;
+}
+```
